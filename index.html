@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio Yan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <link rel="#about" href="Sobre">
+                    <link rel="#projects" href="Projetos">
+                    <link rel="#contact" href="Contatos">
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section id="hero">
+        <div class="container">
+            <h2>Olá, Sou o Yan Carlos D. Santos Silva</h2>
+            <p>Desenvolvedor JavaScript, cursando EBAC</p>
+            <a href="#projects" class="btn">Veja meus Projetos</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Sou um futuro Desenvolvedor web, cursando atualmente na EBAC, apredendo a estilizar e fazer sites e aplicativos.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Meus Projetos</h2>
+            <div class="project">
+                <img src="./img/imagem1.png" alt="Projeto1">
+                <div class="project-info">
+                    <h3>Sistema de gerenciamento de tarefas</h3>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./img/imagem2.jpg" alt="projeto2">
+                <div class="Project-info">
+                    <h3>Aplicativo de previsão de tempo</h3>
+                </div>
+            </div>
+            <div class="project">
+                <img src="./img/imagem3.jpg" alt="projeto3">
+                <div class="project-info">
+                <h3>Plataforma de Blog</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="#" mathod="POST">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="email">Deixe seu recado: </label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <input type="Submit" value="Enviar">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Yan Carlos. Projeto portifolio</p>
+        </div>
+    </footer>
+
+</body>
+</html>
